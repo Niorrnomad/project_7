@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon Apr 21 16:27:33 2025
+# Process ID         : 6936
+# Current directory  : D:/bi ging ghi li/project_7/project_7.runs/synth_1_copy_1
+# Command line       : vivado.exe -log BLK_MEM_GEN_V4_3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source BLK_MEM_GEN_V4_3.tcl
+# Log file           : D:/bi ging ghi li/project_7/project_7.runs/synth_1_copy_1/BLK_MEM_GEN_V4_3.vds
+# Journal file       : D:/bi ging ghi li/project_7/project_7.runs/synth_1_copy_1\vivado.jou
+# Running On         : WIN-PRO
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19045
+# Processor Detail   : Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+# CPU Frequency      : 2712 MHz
+# CPU Physical cores : 2
+# CPU Logical cores  : 4
+# Host memory        : 17073 MB
+# Swap memory        : 1073 MB
+# Total Virtual      : 18147 MB
+# Available Virtual  : 7431 MB
+#-----------------------------------------------------------
+source BLK_MEM_GEN_V4_3.tcl -notrace

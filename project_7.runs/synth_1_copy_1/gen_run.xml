@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1_copy_1" LaunchPart="xc7vx485tffg1761-2" LaunchTime="1745227646" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/blk_mem_gen_v4_3.dcp">
+  <File Type="PA-TCL" Name="BLK_MEM_GEN_V4_3.tcl"/>
+  <File Type="REPORTS-TCL" Name="BLK_MEM_GEN_V4_3_reports.tcl"/>
+  <File Type="RDS-RDS" Name="BLK_MEM_GEN_V4_3.vds"/>
+  <File Type="RDS-UTIL" Name="BLK_MEM_GEN_V4_3_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="BLK_MEM_GEN_V4_3_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="BLK_MEM_GEN_V4_3.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/aes_core_256/inst.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Zalo/aes_core_256/inst.v"/>
+        <Attr Name="ImportTime" Val="1291347453"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Zalo/aes_core_256/blk_mem_gen_v4_3.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aes_core_256/addroundkey.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Zalo/aes_core_256/addroundkey.v"/>
+        <Attr Name="ImportTime" Val="1303625518"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aes_core_256/reg32.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Zalo/aes_core_256/reg32.v"/>
+        <Attr Name="ImportTime" Val="1303403164"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aes_core_256/t_addround.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Zalo/aes_core_256/t_addround.v"/>
+        <Attr Name="ImportTime" Val="1304849725"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aes_core_256/aes256_core.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Zalo/aes_core_256/aes256_core.v"/>
+        <Attr Name="ImportTime" Val="1305226172"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aes_core_256/aes256_cu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Zalo/aes_core_256/aes256_cu.v"/>
+        <Attr Name="ImportTime" Val="1305335978"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aes_core_256/aes_keyexpand_256.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Zalo/aes_core_256/aes_keyexpand_256.v"/>
+        <Attr Name="ImportTime" Val="1305092865"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aes_core_256/aes_transformation.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Zalo/aes_core_256/aes_transformation.v"/>
+        <Attr Name="ImportTime" Val="1303625499"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aes_core_256/aes256_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Zalo/aes_core_256/aes256_top.v"/>
+        <Attr Name="ImportTime" Val="1303935366"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aes_core_256/bytemixcolumn.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Zalo/aes_core_256/bytemixcolumn.v"/>
+        <Attr Name="ImportTime" Val="1303402052"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aes_core_256/databuffer.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Zalo/aes_core_256/databuffer.v"/>
+        <Attr Name="ImportTime" Val="1303402048"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aes_core_256/databuffer_large.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Zalo/aes_core_256/databuffer_large.v"/>
+        <Attr Name="ImportTime" Val="1303402044"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aes_core_256/keymodule.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Zalo/aes_core_256/keymodule.v"/>
+        <Attr Name="ImportTime" Val="1303546467"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aes_core_256/keyram_128.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Zalo/aes_core_256/keyram_128.v"/>
+        <Attr Name="ImportTime" Val="1303401774"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aes_core_256/mix_invmix.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Zalo/aes_core_256/mix_invmix.v"/>
+        <Attr Name="ImportTime" Val="1303403136"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aes_core_256/rcon.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Zalo/aes_core_256/rcon.v"/>
+        <Attr Name="ImportTime" Val="1305014664"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aes_core_256/tb_cores.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Zalo/aes_core_256/tb_cores.v"/>
+        <Attr Name="ImportTime" Val="1305305307"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aes_core_256/reg_32.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Zalo/aes_core_256/reg_32.v"/>
+        <Attr Name="ImportTime" Val="1304327663"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aes_core_256/sbox.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Zalo/aes_core_256/sbox.v"/>
+        <Attr Name="ImportTime" Val="1303390787"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aes_core_256/shiftsub_invshiftsub.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Zalo/aes_core_256/shiftsub_invshiftsub.v"/>
+        <Attr Name="ImportTime" Val="1303402032"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aes_core_256/subbytes.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Zalo/aes_core_256/subbytes.v"/>
+        <Attr Name="ImportTime" Val="1303402028"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aes_core_256/subword.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Zalo/aes_core_256/subword.v"/>
+        <Attr Name="ImportTime" Val="1303402024"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aes_core_256/t_aes256_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Zalo/aes_core_256/t_aes256_top.v"/>
+        <Attr Name="ImportTime" Val="1304705755"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aes_core_256/t_cores.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Zalo/aes_core_256/t_cores.v"/>
+        <Attr Name="ImportTime" Val="1304930991"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aes_core_256/wordmixcolumn.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Zalo/aes_core_256/wordmixcolumn.v"/>
+        <Attr Name="ImportTime" Val="1303402016"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aes_core_256/xtime.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Zalo/aes_core_256/xtime.v"/>
+        <Attr Name="ImportTime" Val="1303402011"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aes_core_256/blk_mem_gen_v4_3.v">
+      <FileInfo>
+        <Attr Name="Library" Val="work"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Zalo/aes_core_256/blk_mem_gen_v4_3.v"/>
+        <Attr Name="ImportTime" Val="1303619209"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/aes_core_256/aes256_core.ngc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Zalo/aes_core_256/aes256_core.ngc"/>
+        <Attr Name="ImportTime" Val="1305336212"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Zalo/aes_core_256/reg_32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Zalo/aes_core_256/sbox.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Zalo/aes_core_256/rcon.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Zalo/aes_core_256/subword.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Zalo/aes_core_256/wordmixcolumn.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Zalo/aes_core_256/databuffer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Zalo/aes_core_256/aes_transformation.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Zalo/aes_core_256/t_addround.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Zalo/aes_core_256/mix_invmix.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Zalo/aes_core_256/aes_keyexpand_256.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Zalo/aes_core_256/aes256_core.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Zalo/aes_core_256/keyram_128.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Zalo/aes_core_256/aes256_top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Zalo/aes_core_256/reg32.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Zalo/aes_core_256/t_aes256_top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Zalo/aes_core_256/keymodule.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Zalo/aes_core_256/tb_cores.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Zalo/aes_core_256/aes256_cu.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Zalo/aes_core_256/addroundkey.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Zalo/aes_core_256/bytemixcolumn.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Zalo/aes_core_256/shiftsub_invshiftsub.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Zalo/aes_core_256/inst.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Zalo/aes_core_256/xtime.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Zalo/aes_core_256/databuffer_large.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Zalo/aes_core_256/subbytes.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Zalo/aes_core_256/t_cores.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="BLK_MEM_GEN_V4_3"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/lmao.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/blk_mem_gen_v4_3.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="UsedInSteps" Val="synth_1_copy_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,10 @@
+(DELAYFILE 
+(SDFVERSION "3.0" )
+(DESIGN "t_addround")
+(DATE "Mon Apr 21 10:47:07 2025")
+(VENDOR "XILINX")
+(PROGRAM "Vivado")
+(VERSION "2024.2")
+(DIVIDER /)
+(TIMESCALE 1ps)
+)

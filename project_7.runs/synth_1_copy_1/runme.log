@@ -1,0 +1,495 @@
+
+*** Running vivado
+    with args -log BLK_MEM_GEN_V4_3.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source BLK_MEM_GEN_V4_3.tcl
+
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Mon Apr 21 16:27:33 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source BLK_MEM_GEN_V4_3.tcl -notrace
+create_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:20 . Memory (MB): peak = 642.812 ; gain = 202.367
+WARNING: [filemgmt 56-609] 'D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/aes256_core.ngc' file is used.
+'.ngc'/'.ngo' file format will not be supported in later releases, please use '.edf' instead.
+Command: read_checkpoint -auto_incremental -incremental {D:/bi ging ghi li/project_7/project_7.srcs/utils_1/imports/synth_1/blk_mem_gen_v4_3.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/bi ging ghi li/project_7/project_7.srcs/utils_1/imports/synth_1/blk_mem_gen_v4_3.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top BLK_MEM_GEN_V4_3 -part xc7vx485tffg1761-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 10588
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1607.754 ; gain = 467.488
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-10388] /* is inside a comment [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/aes256_core.v:43]
+INFO: [Synth 8-11241] undeclared symbol 'b7', assumed default net type 'wire' [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/xtime.v:26]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'reg_32' [D:/Zalo/aes_core_256/reg_32.v:15]
+INFO: [Synth 8-9937] previous definition of design element 'reg_32' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/reg_32.v:15]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'sbox' [D:/Zalo/aes_core_256/sbox.v:271]
+INFO: [Synth 8-9937] previous definition of design element 'sbox' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/sbox.v:271]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'rcon' [D:/Zalo/aes_core_256/rcon.v:68]
+INFO: [Synth 8-9937] previous definition of design element 'rcon' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/rcon.v:68]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'subword' [D:/Zalo/aes_core_256/subword.v:16]
+INFO: [Synth 8-9937] previous definition of design element 'subword' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/subword.v:16]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'wordmixcolumn' [D:/Zalo/aes_core_256/wordmixcolumn.v:38]
+INFO: [Synth 8-9937] previous definition of design element 'wordmixcolumn' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/wordmixcolumn.v:38]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'databuffer' [D:/Zalo/aes_core_256/databuffer.v:33]
+INFO: [Synth 8-9937] previous definition of design element 'databuffer' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/databuffer.v:33]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'aes_transformation' [D:/Zalo/aes_core_256/aes_transformation.v:71]
+INFO: [Synth 8-9937] previous definition of design element 'aes_transformation' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/aes_transformation.v:71]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 't_addround' [D:/Zalo/aes_core_256/t_addround.v:72]
+INFO: [Synth 8-9937] previous definition of design element 't_addround' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/t_addround.v:72]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'mix_invmix' [D:/Zalo/aes_core_256/mix_invmix.v:40]
+INFO: [Synth 8-9937] previous definition of design element 'mix_invmix' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/mix_invmix.v:40]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'aes_keyexpand_256' [D:/Zalo/aes_core_256/aes_keyexpand_256.v:59]
+INFO: [Synth 8-9937] previous definition of design element 'aes_keyexpand_256' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/aes_keyexpand_256.v:59]
+WARNING: [Synth 8-10388] /* is inside a comment [D:/Zalo/aes_core_256/aes256_core.v:43]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'aes256_core' [D:/Zalo/aes_core_256/aes256_core.v:154]
+INFO: [Synth 8-9937] previous definition of design element 'aes256_core' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/aes256_core.v:154]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'keyram_128' [D:/Zalo/aes_core_256/keyram_128.v:29]
+INFO: [Synth 8-9937] previous definition of design element 'keyram_128' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/keyram_128.v:29]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'aes256_top' [D:/Zalo/aes_core_256/aes256_top.v:60]
+INFO: [Synth 8-9937] previous definition of design element 'aes256_top' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/aes256_top.v:60]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'reg32' [D:/Zalo/aes_core_256/reg32.v:34]
+INFO: [Synth 8-9937] previous definition of design element 'reg32' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/reg32.v:34]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 't_aes256_top' [D:/Zalo/aes_core_256/t_aes256_top.v:390]
+INFO: [Synth 8-9937] previous definition of design element 't_aes256_top' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/t_aes256_top.v:390]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'keymodule' [D:/Zalo/aes_core_256/keymodule.v:11]
+INFO: [Synth 8-9937] previous definition of design element 'keymodule' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/keymodule.v:11]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'tb_cores' [D:/Zalo/aes_core_256/tb_cores.v:109]
+INFO: [Synth 8-9937] previous definition of design element 'tb_cores' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/tb_cores.v:109]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'aes256_cu' [D:/Zalo/aes_core_256/aes256_cu.v:456]
+INFO: [Synth 8-9937] previous definition of design element 'aes256_cu' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/aes256_cu.v:456]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'addroundkey' [D:/Zalo/aes_core_256/addroundkey.v:50]
+INFO: [Synth 8-9937] previous definition of design element 'addroundkey' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/addroundkey.v:50]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'bytemixcolumn' [D:/Zalo/aes_core_256/bytemixcolumn.v:45]
+INFO: [Synth 8-9937] previous definition of design element 'bytemixcolumn' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/bytemixcolumn.v:45]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'shiftsub_invshiftsub' [D:/Zalo/aes_core_256/shiftsub_invshiftsub.v:61]
+INFO: [Synth 8-9937] previous definition of design element 'shiftsub_invshiftsub' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/shiftsub_invshiftsub.v:61]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BLK_MEM_GEN_V4_3_output_stage' [D:/Zalo/aes_core_256/inst.v:384]
+INFO: [Synth 8-9937] previous definition of design element 'BLK_MEM_GEN_V4_3_output_stage' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/inst.v:384]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BLK_MEM_GEN_V4_3_softecc_output_reg_stage' [D:/Zalo/aes_core_256/inst.v:470]
+INFO: [Synth 8-9937] previous definition of design element 'BLK_MEM_GEN_V4_3_softecc_output_reg_stage' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/inst.v:470]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BLK_MEM_GEN_V4_3_mem_module' [D:/Zalo/aes_core_256/inst.v:2040]
+INFO: [Synth 8-9937] previous definition of design element 'BLK_MEM_GEN_V4_3_mem_module' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/inst.v:2040]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'BLK_MEM_GEN_V4_3' [D:/Zalo/aes_core_256/inst.v:2378]
+INFO: [Synth 8-9937] previous definition of design element 'BLK_MEM_GEN_V4_3' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/inst.v:2378]
+INFO: [Synth 8-11241] undeclared symbol 'b7', assumed default net type 'wire' [D:/Zalo/aes_core_256/xtime.v:26]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'xtime' [D:/Zalo/aes_core_256/xtime.v:46]
+INFO: [Synth 8-9937] previous definition of design element 'xtime' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/xtime.v:46]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'databuffer_large' [D:/Zalo/aes_core_256/databuffer_large.v:39]
+INFO: [Synth 8-9937] previous definition of design element 'databuffer_large' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/databuffer_large.v:39]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'subbytes' [D:/Zalo/aes_core_256/subbytes.v:269]
+INFO: [Synth 8-9937] previous definition of design element 'subbytes' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/subbytes.v:269]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 't_cores' [D:/Zalo/aes_core_256/t_cores.v:98]
+INFO: [Synth 8-9937] previous definition of design element 't_cores' is here [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/t_cores.v:98]
+CRITICAL WARNING: [Synth 8-9873] overwriting previous definition of module 'blk_mem_gen_v4_3' [D:/bi ging ghi li/project_7/project_7.srcs/sources_1/imports/aes_core_256/blk_mem_gen_v4_3.v:161]
+INFO: [Synth 8-9937] previous definition of design element 'blk_mem_gen_v4_3' is here [D:/Zalo/aes_core_256/blk_mem_gen_v4_3.v:161]
+INFO: [Synth 8-6157] synthesizing module 'BLK_MEM_GEN_V4_3' [D:/Zalo/aes_core_256/inst.v:2047]
+INFO: [Synth 8-6157] synthesizing module 'BLK_MEM_GEN_V4_3_mem_module' [D:/Zalo/aes_core_256/inst.v:478]
+	Parameter C_CORENAME bound to: blk_mem_gen_v4_3 - type: string 
+	Parameter C_FAMILY bound to: virtex6 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: virtex6 - type: string 
+	Parameter C_MEM_TYPE bound to: 2 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 3 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: (null) - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_RST_TYPE bound to: SYNC - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 1 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 32 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 32 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 64 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 64 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 5 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 1 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 32 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 32 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 64 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 64 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 5 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: NONE - type: string 
+	Parameter C_COMMON_CLK bound to: 1 - type: integer 
+	Parameter FLOP_DELAY bound to: 100 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+INFO: [Synth 8-251] Block Memory Generator CORE Generator module  is using a behavioral model for simulation which will not precisely model memory collision behavior. [D:/Zalo/aes_core_256/inst.v:1453]
+WARNING: [Synth 8-11581] system task call 'fwrite' not supported [D:/Zalo/aes_core_256/inst.v:1934]
+WARNING: [Synth 8-11581] system task call 'fwrite' not supported [D:/Zalo/aes_core_256/inst.v:1936]
+INFO: [Synth 8-6157] synthesizing module 'BLK_MEM_GEN_V4_3_output_stage' [D:/Zalo/aes_core_256/inst.v:81]
+	Parameter C_FAMILY bound to: virtex6 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: virtex6 - type: string 
+	Parameter C_RST_TYPE bound to: SYNC - type: string 
+	Parameter C_HAS_RST bound to: 0 - type: integer 
+	Parameter C_RSTRAM bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY bound to: CE - type: string 
+	Parameter C_INIT_VAL bound to: 0 - type: string 
+	Parameter C_HAS_EN bound to: 1 - type: integer 
+	Parameter C_HAS_REGCE bound to: 0 - type: integer 
+	Parameter C_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 5 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter NUM_STAGES bound to: 0 - type: integer 
+	Parameter FLOP_DELAY bound to: 100 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'BLK_MEM_GEN_V4_3_output_stage' (0#1) [D:/Zalo/aes_core_256/inst.v:81]
+INFO: [Synth 8-6157] synthesizing module 'BLK_MEM_GEN_V4_3_softecc_output_reg_stage' [D:/Zalo/aes_core_256/inst.v:386]
+	Parameter C_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 5 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter FLOP_DELAY bound to: 100 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'BLK_MEM_GEN_V4_3_softecc_output_reg_stage' (0#1) [D:/Zalo/aes_core_256/inst.v:386]
+INFO: [Synth 8-6155] done synthesizing module 'BLK_MEM_GEN_V4_3_mem_module' (0#1) [D:/Zalo/aes_core_256/inst.v:478]
+INFO: [Synth 8-6155] done synthesizing module 'BLK_MEM_GEN_V4_3' (0#1) [D:/Zalo/aes_core_256/inst.v:2047]
+WARNING: [Synth 8-6014] Unused sequential element sync_coll.is_collision_reg was removed.  [D:/Zalo/aes_core_256/inst.v:1916]
+WARNING: [Synth 8-7129] Port CLK in module BLK_MEM_GEN_V4_3_softecc_output_reg_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module BLK_MEM_GEN_V4_3_output_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RST in module BLK_MEM_GEN_V4_3_output_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port EN in module BLK_MEM_GEN_V4_3_output_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port REGCE in module BLK_MEM_GEN_V4_3_output_stage is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module BLK_MEM_GEN_V4_3_mem_module is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module BLK_MEM_GEN_V4_3_mem_module is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1727.691 ; gain = 587.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1727.691 ; gain = 587.426
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1727.691 ; gain = 587.426
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.085 . Memory (MB): peak = 1727.691 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc]
+WARNING: [Vivado 12-584] No ports matched 'DDR3_A[*]'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DDR3_BA[*]'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DDR3_CAS_B'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DDR3_CKE'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DDR3_CLK_P'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DDR3_CLK_N'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DDR3_CS_B'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DDR3_DM[*]'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DDR3_DQ[*]'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DDR3_DQS[*]'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DDR3_DQS_N[*]'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DDR3_ODT'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DDR3_RAS_B'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DDR3_WE_B'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DDR3_CLK_P'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:31]
+CRITICAL WARNING: [Common 17-165] Too many positional options when parsing '(1/0.8e-9)', please type 'create_clock -help' for usage info. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:31]
+WARNING: [Vivado 12-584] No ports matched 'USB_SMSC_DATA[*]'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'USB_SMSC_NXT'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'USB_SMSC_RESET_B'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'USB_SMSC_STP'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'USB_SMSC_DIR'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'USB_SMSC_REFCLK_OPTION'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'USB_SMSC_CLKOUT'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'USB_SMSC_CLKOUT'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:45]
+CRITICAL WARNING: [Common 17-165] Too many positional options when parsing '25MHz', please type 'create_clock -help' for usage info. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:45]
+WARNING: [Vivado 12-584] No ports matched 'SYSCLK_P'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:51]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports SYSCLK_P]'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:51]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'SYSCLK_P'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'SYSCLK_N'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'USERCLK_P'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:56]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports USERCLK_P]'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:56]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'USERCLK_P'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'USERCLK_N'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LCD_D[*]'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LCD_E'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LCD_RS'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'LCD_RW'. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-69] Command failed: Missing name/value pair in -dict argument. [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc:200]
+Finished Parsing XDC File [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/bi ging ghi li/project_7/project_7.srcs/constrs_1/new/lmao.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/BLK_MEM_GEN_V4_3_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/BLK_MEM_GEN_V4_3_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1825.219 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1825.219 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1825.219 ; gain = 684.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1761-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1825.219 ; gain = 684.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1825.219 ; gain = 684.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 1825.219 ; gain = 684.953
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 66    
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 256   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port RSTA in module BLK_MEM_GEN_V4_3_mem_module is either unconnected or has no load
+WARNING: [Synth 8-7129] Port REGCEA in module BLK_MEM_GEN_V4_3_mem_module is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLKB in module BLK_MEM_GEN_V4_3_mem_module is either unconnected or has no load
+WARNING: [Synth 8-7129] Port RSTB in module BLK_MEM_GEN_V4_3_mem_module is either unconnected or has no load
+WARNING: [Synth 8-7129] Port REGCEB in module BLK_MEM_GEN_V4_3_mem_module is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTSBITERR in module BLK_MEM_GEN_V4_3_mem_module is either unconnected or has no load
+WARNING: [Synth 8-7129] Port INJECTDBITERR in module BLK_MEM_GEN_V4_3_mem_module is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:56 ; elapsed = 00:01:06 . Memory (MB): peak = 1968.852 ; gain = 828.586
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:09 ; elapsed = 00:01:22 . Memory (MB): peak = 2003.199 ; gain = 862.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:09 ; elapsed = 00:01:22 . Memory (MB): peak = 2003.223 ; gain = 862.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:12 ; elapsed = 00:01:26 . Memory (MB): peak = 2052.633 ; gain = 912.367
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:24 ; elapsed = 00:01:41 . Memory (MB): peak = 2166.340 ; gain = 1026.074
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:24 ; elapsed = 00:01:41 . Memory (MB): peak = 2166.340 ; gain = 1026.074
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:24 ; elapsed = 00:01:41 . Memory (MB): peak = 2166.340 ; gain = 1026.074
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:24 ; elapsed = 00:01:41 . Memory (MB): peak = 2166.340 ; gain = 1026.074
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:24 ; elapsed = 00:01:42 . Memory (MB): peak = 2166.340 ; gain = 1026.074
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:24 ; elapsed = 00:01:42 . Memory (MB): peak = 2166.340 ; gain = 1026.074
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BUFG  |     1|
+|2     |LUT2  |     7|
+|3     |LUT3  |    24|
+|4     |LUT4  |    89|
+|5     |LUT5  |   767|
+|6     |LUT6  |  2449|
+|7     |MUXF7 |   512|
+|8     |MUXF8 |   256|
+|9     |FDRE  |  1088|
+|10    |IBUF  |    79|
+|11    |OBUF  |    71|
++------+------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:24 ; elapsed = 00:01:42 . Memory (MB): peak = 2166.340 ; gain = 1026.074
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:06 ; elapsed = 00:01:36 . Memory (MB): peak = 2166.340 ; gain = 928.547
+Synthesis Optimization Complete : Time (s): cpu = 00:01:25 ; elapsed = 00:01:42 . Memory (MB): peak = 2166.340 ; gain = 1026.074
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.635 . Memory (MB): peak = 2175.688 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 768 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'BLK_MEM_GEN_V4_3' is not ideal for floorplanning, since the cellview 'BLK_MEM_GEN_V4_3_mem_module' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2187.477 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 62da3b6d
+INFO: [Common 17-83] Releasing license: Synthesis
+62 Infos, 55 Warnings, 64 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:41 ; elapsed = 00:02:04 . Memory (MB): peak = 2187.477 ; gain = 1540.504
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 2187.477 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/bi ging ghi li/project_7/project_7.runs/synth_1_copy_1/BLK_MEM_GEN_V4_3.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file BLK_MEM_GEN_V4_3_utilization_synth.rpt -pb BLK_MEM_GEN_V4_3_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 21 16:30:05 2025...

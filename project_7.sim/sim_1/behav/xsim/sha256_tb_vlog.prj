@@ -1,0 +1,81 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_7.srcs/sources_1/imports/Download/CMD_GEN.v" \
+"../../../../project_7.srcs/sources_1/imports/Download/DATA_GEN.v" \
+"../../../../project_7.srcs/sources_1/imports/Download/K.v" \
+"../../../../project_7.srcs/sources_1/imports/Download/W.v" \
+"../../../../project_7.srcs/sources_1/imports/Download/hash.v" \
+"../../../../project_7.srcs/sources_1/imports/Download/top_core.v" \
+"../../../../project_7.srcs/sources_1/imports/Download/topl.v" \
+"../../../../project_7.srcs/sources_1/imports/sha256.v" \
+"../../../../project_7.srcs/sources_1/imports/j_cnt.v" \
+"../../../../project_7.srcs/sources_1/imports/w_cnt.v" \
+"../../../../project_7.srcs/sources_1/imports/aes_core_256/inst.v" \
+"../../../../../../Zalo/aes_core_256/blk_mem_gen_v4_3.v" \
+"../../../../project_7.srcs/sources_1/imports/aes_core_256/addroundkey.v" \
+"../../../../project_7.srcs/sources_1/imports/aes_core_256/reg32.v" \
+"../../../../project_7.srcs/sources_1/imports/aes_core_256/t_addround.v" \
+"../../../../project_7.srcs/sources_1/imports/aes_core_256/aes256_core.v" \
+"../../../../project_7.srcs/sources_1/imports/aes_core_256/aes256_cu.v" \
+"../../../../project_7.srcs/sources_1/imports/aes_core_256/aes_keyexpand_256.v" \
+"../../../../project_7.srcs/sources_1/imports/aes_core_256/aes_transformation.v" \
+"../../../../project_7.srcs/sources_1/imports/aes_core_256/aes256_top.v" \
+"../../../../project_7.srcs/sources_1/imports/aes_core_256/bytemixcolumn.v" \
+"../../../../project_7.srcs/sources_1/imports/aes_core_256/databuffer.v" \
+"../../../../project_7.srcs/sources_1/imports/aes_core_256/databuffer_large.v" \
+"../../../../project_7.srcs/sources_1/imports/aes_core_256/keymodule.v" \
+"../../../../project_7.srcs/sources_1/imports/aes_core_256/keyram_128.v" \
+"../../../../project_7.srcs/sources_1/imports/aes_core_256/mix_invmix.v" \
+"../../../../project_7.srcs/sources_1/imports/aes_core_256/rcon.v" \
+"../../../../project_7.srcs/sources_1/imports/aes_core_256/tb_cores.v" \
+"../../../../project_7.srcs/sources_1/imports/aes_core_256/reg_32.v" \
+"../../../../project_7.srcs/sources_1/imports/aes_core_256/sbox.v" \
+"../../../../project_7.srcs/sources_1/imports/aes_core_256/shiftsub_invshiftsub.v" \
+"../../../../project_7.srcs/sources_1/imports/aes_core_256/subbytes.v" \
+"../../../../project_7.srcs/sources_1/imports/aes_core_256/subword.v" \
+"../../../../project_7.srcs/sources_1/imports/aes_core_256/t_aes256_top.v" \
+"../../../../project_7.srcs/sources_1/imports/aes_core_256/t_cores.v" \
+"../../../../project_7.srcs/sources_1/imports/aes_core_256/wordmixcolumn.v" \
+"../../../../project_7.srcs/sources_1/imports/aes_core_256/xtime.v" \
+
+verilog work  \
+"../../../../project_7.srcs/sources_1/imports/aes_core_256/blk_mem_gen_v4_3.v" \
+
+verilog xil_defaultlib  \
+"../../../../../../Zalo/aes_core_256/reg_32.v" \
+"../../../../../../Zalo/aes_core_256/sbox.v" \
+"../../../../../../Zalo/aes_core_256/rcon.v" \
+"../../../../../../Zalo/aes_core_256/subword.v" \
+"../../../../../../Zalo/aes_core_256/wordmixcolumn.v" \
+"../../../../../../Zalo/aes_core_256/databuffer.v" \
+"../../../../../../Zalo/aes_core_256/aes_transformation.v" \
+"../../../../../../Zalo/aes_core_256/t_addround.v" \
+"../../../../../../Zalo/aes_core_256/mix_invmix.v" \
+"../../../../../../Zalo/aes_core_256/aes_keyexpand_256.v" \
+"../../../../../../Zalo/aes_core_256/aes256_core.v" \
+"../../../../../../Zalo/aes_core_256/keyram_128.v" \
+"../../../../../../Zalo/aes_core_256/aes256_top.v" \
+"../../../../../../Zalo/aes_core_256/reg32.v" \
+"../../../../../../Zalo/aes_core_256/t_aes256_top.v" \
+"../../../../../../Zalo/aes_core_256/keymodule.v" \
+"../../../../../../Zalo/aes_core_256/tb_cores.v" \
+"../../../../../../Zalo/aes_core_256/aes256_cu.v" \
+"../../../../../../Zalo/aes_core_256/addroundkey.v" \
+"../../../../../../Zalo/aes_core_256/bytemixcolumn.v" \
+"../../../../../../Zalo/aes_core_256/shiftsub_invshiftsub.v" \
+"../../../../../../Zalo/aes_core_256/inst.v" \
+"../../../../../../Zalo/aes_core_256/xtime.v" \
+"../../../../../../Zalo/aes_core_256/databuffer_large.v" \
+"../../../../../../Zalo/aes_core_256/subbytes.v" \
+"../../../../../../Zalo/aes_core_256/t_cores.v" \
+"../../../../project_7.srcs/sources_1/imports/tb.v" \
+"../../../../project_7.srcs/sources_1/imports/MOD.v" \
+"../../../../project_7.srcs/sources_1/imports/pi.v" \
+"../../../../project_7.srcs/sources_1/imports/model.v" \
+"../../../../project_7.srcs/sources_1/imports/lab_quartus/tb_sha256.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

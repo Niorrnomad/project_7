@@ -1,0 +1,68 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Nov  4 14:06:51 2025
+# Process ID         : 17756
+# Current directory  : D:/bi ging ghi li/project_7
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent12736 D:\bi ging ghi li\project_7\project_7.xpr
+# Log file           : D:/bi ging ghi li/project_7/vivado.log
+# Journal file       : D:/bi ging ghi li/project_7\vivado.jou
+# Running On         : WIN-PRO
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19045
+# Processor Detail   : Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+# CPU Frequency      : 2712 MHz
+# CPU Physical cores : 2
+# CPU Logical cores  : 4
+# Host memory        : 17037 MB
+# Swap memory        : 1409 MB
+# Total Virtual      : 18446 MB
+# Available Virtual  : 6599 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/bi ging ghi li/project_7/project_7.xpr}
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at E:/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at E:/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at E:/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at E:/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at E:/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at E:/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at E:/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Zalo/aes_core_256/blk_mem_gen_v4_3.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Zalo/aes_core_256/reg_32.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Zalo/aes_core_256/sbox.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Zalo/aes_core_256/rcon.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Zalo/aes_core_256/subword.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Zalo/aes_core_256/wordmixcolumn.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Zalo/aes_core_256/databuffer.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Zalo/aes_core_256/aes_transformation.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Zalo/aes_core_256/t_addround.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Zalo/aes_core_256/mix_invmix.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Zalo/aes_core_256/aes_keyexpand_256.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Zalo/aes_core_256/aes256_core.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Zalo/aes_core_256/keyram_128.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Zalo/aes_core_256/aes256_top.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Zalo/aes_core_256/reg32.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Zalo/aes_core_256/t_aes256_top.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Zalo/aes_core_256/keymodule.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Zalo/aes_core_256/tb_cores.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Zalo/aes_core_256/aes256_cu.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Zalo/aes_core_256/addroundkey.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Zalo/aes_core_256/bytemixcolumn.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Zalo/aes_core_256/shiftsub_invshiftsub.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Zalo/aes_core_256/inst.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Zalo/aes_core_256/xtime.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Zalo/aes_core_256/databuffer_large.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Zalo/aes_core_256/subbytes.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'D:/Zalo/aes_core_256/t_cores.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2024.2/data/ip'.
+open_project: Time (s): cpu = 00:01:00 ; elapsed = 00:00:33 . Memory (MB): peak = 1631.090 ; gain = 401.848
+open_hw_manager
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov  4 14:08:22 2025...
