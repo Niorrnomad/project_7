@@ -2,12 +2,16 @@
 #  run.tcl 
 # ============================================================
 
+set_db super_thread_servers {}
+set_db auto_super_thread false
+set_db max_cpus_per_server 0
+set_db information_level 0
 # === Design setup ===
-set DESIGN "two_ff_chain"
+set DESIGN  sha256
 set RTL_DIR "/home/niorr/pj/project_7/project_7.srcs/sources_1"
 set LIB_DIR "/home/niorr/adder_rtl/lib/gsclib045_all_v4.8"
-set OUT_DIR "/home/niorr/pj/project_7/physicad_design/sha256/results"
-set SDC_FILE "/home/niorr/adder_rtl/constraints/two_ff_chain.sdc"
+set OUT_DIR "/home/niorr/pj/project_7/physical_design/sha256/results"
+set SDC_FILE "/home/niorr/pj/project_7/physical_design/sha256/new.sdc"
 
 # === Environment setup ===
 file mkdir $OUT_DIR
@@ -30,9 +34,9 @@ syn_opt
 
 
 write_hdl > $OUT_DIR/${DESIGN}_synth.v
+write_sdc > $OUT_DIR/${DESIGN}_synth.sdc
 report_area  > $OUT_DIR/${DESIGN}_area.rpt
 report_power > $OUT_DIR/${DESIGN}_power.rpt
 report_timing > $OUT_DIR/${DESIGN}_timing.rpt
 
-gui_start
-gui_show_schematic $DESIGN
+gui_show
