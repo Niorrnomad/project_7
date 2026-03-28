@@ -38,5 +38,6 @@ write_sdc > $OUT_DIR/${DESIGN}_synth.sdc
 report_area  > $OUT_DIR/${DESIGN}_area.rpt
 report_power > $OUT_DIR/${DESIGN}_power.rpt
 report_timing > $OUT_DIR/${DESIGN}_timing.rpt
+report_qor >$OUT_DIR/${DESIGN}_qor.rpt
 
 gui_show
